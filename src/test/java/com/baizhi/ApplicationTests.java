@@ -12,6 +12,11 @@ public class ApplicationTests {
     @Test
     public void contextLoads() {
         System.out.println("liusaiyu");
+        String [] str ={"aa","bb"};
+        for (int i =0 ; i<str.length; i++){
+            String s = str[i];
+            System.out.println(s);
+        }
     }
 
 }
